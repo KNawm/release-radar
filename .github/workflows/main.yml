@@ -17,3 +17,5 @@ jobs:
         list_id: '81f44a3f-f1c2-4f47-a9a9-df79dd32d246'
         suppression_group_id: 22584
         sender_id: 1057550
+      env:
+        SENDGRID_API_KEY: ${{ secrets.SENDGRID_API_KEY }}
