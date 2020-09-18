@@ -12,7 +12,7 @@ jobs:
     name: Send newsletter
     steps:
     - name: Send newsletter
-      uses: KNawm/release-radar@v1
+      uses: KNawm/newsletter-action@v1
       with:
         list_id: '81f44a3f-f1c2-4f47-a9a9-df79dd32d246'
         suppression_group_id: 22584
