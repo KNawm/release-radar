@@ -2,7 +2,7 @@ name: Newsletter
 on:
   workflow_dispatch:
     inputs:
-      name:
+      subject:
         description: 'Subject'
         required: true
 
