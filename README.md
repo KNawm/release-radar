@@ -26,6 +26,16 @@ Connect to GitHub Enterprise Server in addition to GitHub.com
 
 ![GitHub CLI 1.0](https://github.blog/wp-content/uploads/2020/09/GitHubCLI_SocialCard_VersionNumber_NoSubLine_v2.png?w=1200)
 
+## npm CLI v7.0.0
+
+npm 7 comes with some long-awaited and requested features including:
+
+- Workspaces: a set of features to the npm CLI that provide support to managing multiple packages from within a singular top-level, root package
+- Automatically installing peer dependencies: prior to npm 7 developers needed to manage and install their own peer dependencies. The new peer dependency algorithm ensures that a validly matching peer dependency is found at or above the peer-dependent’s location in the node_modules tree.
+- package-lock v2 and support for yarn.lock: Our new package-lock format will unlock the ability to do deterministically reproducible builds and includes everything npm will need to fully build the package tree. Prior to npm 7 yarn.lock files were ignored, the npm cli can now use yarn.lock as source of package metadata and resolution guidance.
+
+![npm CLI v7.0.0](https://github.blog/wp-content/uploads/2020/10/81721690-e2fb5d80-9445-11ea-8602-4b2294c964f3.png?w=1200)
+
 See you next month! 👋
 
 ###### Want to highlight a project? [Open a PR](https://github.com/KNawm/release-radar/pulls)
